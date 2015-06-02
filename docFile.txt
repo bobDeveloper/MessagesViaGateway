@@ -1,0 +1,12 @@
+MessageGateway Application steps
+
+1. Import the libraries JUnit, mockito and log4j. The jre used is jre7 + configure the log4j properties
+2. I will start by creating the main class after that I will create the Interfaces MessageInterface and Gateway
+3. Create the Message class in order to create message objects
+4. Create some tests for the interfaces -> all will not pass
+5. Create the implementation for that interfaces and call them separately from the main class
+6. Create the getMessages() method in GatewayImpl in order to generate some messages that will come to gateway in order to be processed using Random object to generate and a for loop to create and return a new ArrayList of Message.
+7. Check to see if my tests pass
+8. Create the sortMessageAndSend(List<Message> x) that will get the list of messages created early and start sorting them by group and then send to the messageInterface via send() method that I will create after that.
+9. Create the send(Message msg) method in order to send each message, that has been sorted in the previous method implementation, to the Messageinterface. In the implementation of method complete() from the MessageInterface it will be only one method that will displayed to us if the message has been displayed.
+10. At the last step I will simulate a delay in the main method using threads and the Gateway interface implemented methods in order to display the messages properly.

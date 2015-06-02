@@ -1,0 +1,18 @@
+MessagesViaGateway Product Quality
+
+The application works fine, send the right messages to gateway, no matter how many messages they have been send. Has a low complexity in sorting the messages, because its done in one step, so the time consumed is not long.
+From the task objectives the application covers:
+1. receives Messages (and queues them up if they cannot be processed)
+2. sends the correct message to the gateway
+
+The application selects the right messages, the messages are processed from a list and sorted properly
+
+Forwarding: for a single resource, when one message is received, that message is send to the gateway 
+			for two resources (not covered)
+
+Queueing: covered partially
+
+Responding:	covered
+
+
+		
